@@ -7,5 +7,6 @@ How to use the ParticleSystem in Unity.
 */
 
 //在场景中添加空物体，然后加上ParticleSystem组件，在ParticleSystem添加Texture Sheet Aniamtion。
-//导入.png图片，新建材质material
-//
+//导入.png图片，新建材质m_material.
+//在ParticleSystem的Render>Material选择m_material（将m_material直接拖向场景中的粒子系统也是同理。）然后让m_maretial指向.png
+//在ParticleSystem的Texture Sheet Animation>Tiles切分图片有几部分组成。
